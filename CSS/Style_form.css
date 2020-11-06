@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    margin-top: 60px;
+    margin-left: 500px;
+    width: 500px;
+    height: 580px;
+    background-color: blanchedalmond;
+}
+
+.box1 {
+    text-align: center;
+    background-color: rgb(189, 204, 223);
+}
+
+.box2 {
+    font-size: 20px;
+    width: 500px;
+    height: 550px;
+    background-color: blue;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 5px 10px;
+    width: 179px;
+    height: 25px;
+    font-size: 17px;
+}
+
+input[type="reset"] {
+    margin-left: 180px;
+    padding: 5px 10px;
+    width: 80px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    background-color: red;
+}
+
+input[type="button"] {
+    padding: 5px 10px;
+    margin-right: -170px;
+    width: 50px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    background-color: blue;
+}
+
+input[type="date"] {
+    padding: 5px 10px;
+    width: 170px;
+    height: 28px;
+    font-size: 17px;
+}
+
+select[name="dropdown"] {
+    padding: 5px 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 17px;
+}
+
+textarea[name="description"] {
+    font-size: 17px;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+
+.box2 span {
+    color: red;
+}
