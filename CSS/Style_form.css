@@ -3,25 +3,45 @@
     margin: 0;
 }
 
+.box-body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(190, 194, 201);
+}
+
 .box {
-    margin-top: 60px;
+    margin-top: 30px;
     margin-left: 500px;
     width: 500px;
-    height: 580px;
-    background-color: blanchedalmond;
+    height: 680px;
+    background-color: rgb(190, 194, 201);
 }
 
 .box1 {
+    color: black;
+    height: 50px;
+    width: 500px;
+    padding-top: 20px;
     text-align: center;
-    background-color: rgb(189, 204, 223);
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
 }
 
 .box2 {
-    font-size: 20px;
     width: 500px;
     height: 550px;
-    background-color: blue;
+    background-color: rgb(182, 218, 248);
     text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+    radius
 }
 
 input[type="text"] {
@@ -29,6 +49,8 @@ input[type="text"] {
     width: 179px;
     height: 25px;
     font-size: 17px;
+    background-color: rgb(234, 237, 243);
+    border-radius: 5px 5px;
 }
 
 input[type="reset"] {
@@ -39,6 +61,7 @@ input[type="reset"] {
     font-size: 18px;
     color: white;
     background-color: red;
+    border-radius: 5px 5px;
 }
 
 input[type="button"] {
@@ -49,6 +72,7 @@ input[type="button"] {
     font-size: 18px;
     color: white;
     background-color: blue;
+    border-radius: 5px 5px;
 }
 
 input[type="date"] {
@@ -56,6 +80,8 @@ input[type="date"] {
     width: 170px;
     height: 28px;
     font-size: 17px;
+    background-color: rgb(234, 237, 243);
+    border-radius: 5px 5px;
 }
 
 select[name="dropdown"] {
@@ -63,12 +89,15 @@ select[name="dropdown"] {
     width: 200px;
     height: 40px;
     font-size: 17px;
+    background-color: rgb(234, 237, 243);
+    border-radius: 5px 5px;
 }
 
 textarea[name="description"] {
     font-size: 17px;
     margin-left: 2px;
     margin-right: 10px;
+    background-color: rgb(234, 237, 243);
 }
 
 .box2 span {
